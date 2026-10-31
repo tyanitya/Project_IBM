@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SM Corp – K-Pop Fan Portal</title>
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              50:  '#fff5f9',
+              100: '#ffe8f3',
+              200: '#ffd1e8',
+              300: '#ffaad4',
+              400: '#ff80bc',
+              500: '#ff4da6',
+              600: '#f0288e',
+              700: '#d41a7a',
+              800: '#b01265',
+              900: '#8a0d4f',
+            }
+          },
+          fontFamily: {
+            sans: ['"Inter"', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+          },
+          borderRadius: {
+            '3xl': '1.5rem',
+            '4xl': '2rem',
+          },
+          boxShadow: {
+            'pastel-sm': '0 4px 16px -4px rgba(255, 105, 180, 0.18)',
+            'pastel':    '0 8px 30px -8px rgba(255, 105, 180, 0.22)',
+            'pastel-lg': '0 20px 50px -12px rgba(255, 105, 180, 0.28)',
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="bg-brand-50 text-gray-900 font-sans antialiased">
+
+  <!-- ===== NAVBAR ===== -->
+  <header class="sticky top-0 z-50 bg-white/80 backdrop-blur-lg border-b border-brand-100 shadow-pastel-sm">
+    <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+
+      <!-- Logo -->
+      <a href="#" id="nav-logo" class="flex items-center gap-2.5 group">
+        <div class="logo-icon w-9 h-9 rounded-2xl bg-gradient-to-br from-brand-400 to-brand-600 flex items-center justify-center shadow-pastel-sm">
+          <span class="text-white font-extrabold text-sm leading-none">SM</span>
+        </div>
+        <span class="text-xl font-extrabold tracking-tight text-gray-800 group-hover:text-brand-600 transition-colors duration-200">
+          SM <span class="text-brand-500">Corp</span>
+        </span>
+      </a>
+
+      <!-- Nav Links Desktop -->
+      <div class="hidden md:flex items-center gap-1 text-sm font-medium">
+        <a href="#" id="nav-home-link" class="px-4 py-2 rounded-full text-gray-600 hover:text-brand-600 hover:bg-brand-50 transition-all duration-200">Artists</a>
+        <a href="#" class="px-4 py-2 rounded-full text-gray-600 hover:text-brand-600 hover:bg-brand-50 transition-all duration-200">News</a>
+        <a href="#" class="px-4 py-2 rounded-full text-gray-600 hover:text-brand-600 hover:bg-brand-50 transition-all duration-200">About</a>
+      </div>
+
+      <!-- Cart & Mobile Menu -->
+      <div class="flex items-center gap-2">
+        <button id="cart-btn" aria-label="Cart"
+          class="relative p-2.5 rounded-2xl bg-brand-50 hover:bg-brand-100 transition-all duration-200 group">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-brand-500 group-hover:scale-110 transition-transform duration-200" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"/>
+          </svg>
+          <span id="cart-count" class="absolute -top-1 -right-1 bg-brand-500 text-white text-xs w-5 h-5 rounded-full flex items-center justify-center font-bold shadow-sm hidden">0</span>
+        </button>
+        <!-- Mobile hamburger -->
+        <button id="mobile-menu-btn" class="md:hidden p-2.5 rounded-2xl bg-brand-50 hover:bg-brand-100 transition-all duration-200" aria-label="Menu">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-brand-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/>
+          </svg>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Mobile Menu Dropdown -->
+    <div id="mobile-menu" class="hidden md:hidden border-t border-brand-100 bg-white/95 backdrop-blur-sm px-4 py-3 flex flex-col gap-1">
+      <a href="#" class="px-4 py-2 rounded-2xl text-sm font-medium text-gray-600 hover:text-brand-600 hover:bg-brand-50 transition-all duration-200" id="nav-home-mobile">Artists</a>
+      <a href="#" class="px-4 py-2 rounded-2xl text-sm font-medium text-gray-600 hover:text-brand-600 hover:bg-brand-50 transition-all duration-200">News</a>
+      <a href="#" class="px-4 py-2 rounded-2xl text-sm font-medium text-gray-600 hover:text-brand-600 hover:bg-brand-50 transition-all duration-200">About</a>
+    </div>
+  </header>
+
+  <!-- ===== MAIN ===== -->
+  <main id="app" class="min-h-screen">
+
+    <!-- ===== VIEW: ARTIST GRID ===== -->
+    <section id="view-home" class="page-view">
+
+      <!-- Hero Banner -->
+      <div class="relative overflow-hidden bg-gradient-to-br from-brand-100 via-brand-50 to-white py-16 sm:py-20 px-4 text-center">
+        <!-- Decorative blobs -->
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+
+        <!-- Content (z-index above blobs) -->
+        <div class="relative z-10">
+          <span class="inline-flex items-center gap-1.5 bg-white/70 backdrop-blur-sm text-brand-600 text-xs font-bold uppercase tracking-widest px-4 py-1.5 rounded-full border border-brand-200 shadow-pastel-sm mb-5">
+            ✨ SM Entertainment Official Fan Portal
+          </span>
+          <h1 class="hero-title text-4xl sm:text-5xl lg:text-6xl font-extrabold text-gray-900 leading-tight mb-5">
+            Welcome to <span class="text-brand-500">SM Corp</span> 🌸
+          </h1>
+          <p class="hero-sub text-base sm:text-lg text-gray-500 max-w-lg mx-auto leading-relaxed">
+            Temukan artis favoritmu, belanja merchandise eksklusif, dan jangan lewatkan satu event pun!
+          </p>
+        </div>
+      </div>
+
+      <!-- Artist Grid -->
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <h2 class="text-2xl font-extrabold text-gray-800 mb-8 flex items-center gap-3">
+          <span class="w-2 h-7 bg-gradient-to-b from-brand-400 to-brand-600 rounded-full inline-block"></span>
+          Our Artists
+          <span class="text-base font-normal text-gray-400">– SM Entertainment</span>
+        </h2>
+        <div id="artist-grid" class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-3 gap-5 sm:gap-6">
+          <!-- Artist cards injected by JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== VIEW: GROUP DETAIL ===== -->
+    <section id="view-group" class="page-view hidden">
+
+      <!-- Group Hero -->
+      <div id="group-hero" class="relative overflow-hidden bg-gradient-to-br from-brand-100 via-brand-50 to-white py-14 px-4">
+        <!-- Decorative blobs -->
+        <div class="blob blob-1" style="opacity:0.2;"></div>
+        <div class="blob blob-2" style="opacity:0.2;"></div>
+
+        <div class="relative z-10 max-w-7xl mx-auto flex flex-col sm:flex-row items-start sm:items-center gap-6">
+          <!-- Back Button -->
+          <button id="back-btn"
+            class="absolute top-4 left-4 sm:top-6 sm:left-6 flex items-center gap-1.5 text-sm font-semibold text-brand-600 hover:text-brand-800 transition-all duration-200 bg-white/90 backdrop-blur-sm rounded-full px-4 py-2 shadow-pastel-sm border border-brand-100 hover:shadow-pastel hover:scale-105">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7"/>
+            </svg>
+            Kembali
+          </button>
+
+          <!-- Group Info -->
+          <div class="text-center sm:text-left mt-10 sm:mt-0">
+            <p id="group-tagline" class="text-xs font-bold uppercase tracking-widest text-brand-400 mb-2"></p>
+            <h2 id="group-name" class="text-4xl sm:text-5xl font-extrabold text-gray-900 mb-2"></h2>
+            <p id="group-meta" class="text-sm text-gray-400 mb-3"></p>
+            <p id="group-members" class="text-sm text-gray-600 max-w-lg leading-relaxed bg-white/60 backdrop-blur-sm rounded-2xl px-4 py-2 border border-brand-100 inline-block"></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Category Filter Tabs (Capsule Pills) -->
+      <div class="sticky top-16 z-40 bg-white/80 backdrop-blur-md border-b border-brand-100 shadow-pastel-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div id="filter-tabs" class="flex items-center gap-2 overflow-x-auto hide-scrollbar py-3.5" role="tablist">
+            <!-- Tabs injected by JS -->
+          </div>
+        </div>
+      </div>
+
+      <!-- Content Area -->
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+        <div id="content-area">
+          <!-- Cards injected by JS -->
+        </div>
+      </div>
+
+    </section>
+
+  </main>
+
+  <!-- ===== TOAST NOTIFICATION ===== -->
+  <div id="toast" class="fixed bottom-6 right-6 z-50 hidden">
+    <div class="bg-white border border-brand-200 text-gray-800 text-sm font-semibold px-5 py-3 rounded-3xl shadow-pastel-lg flex items-center gap-2.5 toast-anim">
+      <span class="w-6 h-6 bg-brand-100 rounded-full flex items-center justify-center flex-shrink-0">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-3.5 w-3.5 text-brand-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/>
+        </svg>
+      </span>
+      <span id="toast-msg">Ditambahkan ke cart!</span>
+    </div>
+  </div>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="bg-white border-t border-brand-100 mt-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 flex flex-col md:flex-row items-center justify-between gap-4">
+      <div class="flex items-center gap-2.5">
+        <div class="w-8 h-8 rounded-2xl bg-gradient-to-br from-brand-400 to-brand-600 flex items-center justify-center shadow-pastel-sm">
+          <span class="text-white font-extrabold text-xs">SM</span>
+        </div>
+        <span class="font-extrabold text-gray-800">SM Corp</span>
+        <span class="text-brand-300 text-lg">✦</span>
+        <span class="text-xs text-gray-400">K-Pop Fan Portal</span>
+      </div>
+      <p class="text-xs text-gray-400 text-center">
+        © 2024 SM Corp Fan Portal. Fan-made project.<br class="sm:hidden"/>
+        Not affiliated with SM Entertainment Co., Ltd.
+      </p>
+      <div class="flex items-center gap-3 text-xs text-gray-400">
+        <a href="#" class="px-3 py-1.5 rounded-full hover:bg-brand-50 hover:text-brand-500 transition-all duration-200">Privacy</a>
+        <a href="#" class="px-3 py-1.5 rounded-full hover:bg-brand-50 hover:text-brand-500 transition-all duration-200">Terms</a>
+        <a href="#" class="px-3 py-1.5 rounded-full hover:bg-brand-50 hover:text-brand-500 transition-all duration-200">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Data & Script -->
+  <script src="script.js" defer></script>
+</body>
+</html>

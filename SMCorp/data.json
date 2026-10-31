@@ -1,0 +1,282 @@
+{
+  "groups": [
+    {
+      "id": "exo",
+      "name": "EXO",
+      "debut": "2012",
+      "members": "Suho, Baekhyun, Chanyeol, D.O., Kai, Sehun, Xiumin, Lay",
+      "genre": "K-Pop, R&B, Hip-Hop",
+      "tagline": "We Are One",
+      "color": "#C9184A",
+      "image": "https://i.pinimg.com/736x/8e/4d/3b/8e4d3b2e2b5e1e1e1e1e1e1e1e1e1e1e.jpg",
+      "coverBg": "#fce4ec",
+      "albums": [
+        {
+          "id": "exo-a1",
+          "title": "XOXO",
+          "year": "2013",
+          "type": "Full Album",
+          "price": 185000,
+          "cover": "https://upload.wikimedia.org/wikipedia/en/7/78/EXO_XOXO_cover.jpg",
+          "tracks": "Wolf|Baby Don't Cry|Black Pearl|The Star|Don't Go|Heart Attack|Let Out the Beast|Lucky|Peter Pan|XOXO|365|Beautiful"
+        },
+        {
+          "id": "exo-a2",
+          "title": "Exodus",
+          "year": "2015",
+          "type": "Full Album",
+          "price": 195000,
+          "cover": "https://upload.wikimedia.org/wikipedia/en/1/12/Exo_exodus_cover.jpg",
+          "tracks": "Exodus|Call Me Baby|El Dorado|Transformer|My Answer|Love Me Right|Promise|Playboy|Hurt|Thunder|Beautiful|Lady Luck"
+        },
+        {
+          "id": "exo-a3",
+          "title": "The War",
+          "year": "2017",
+          "type": "Full Album",
+          "price": 205000,
+          "cover": "https://upload.wikimedia.org/wikipedia/en/3/36/EXO_The_War.png",
+          "tracks": "The War|Ko Ko Bop|Forever|Diamond|Going Crazy|Sweet Lies|Boomerang|Walk on Memories|Power|Sign|What U Do?"
+        }
+      ],
+      "merchandise": [
+        { "id": "exo-m1", "name": "EXO Official Light Stick Ver.4", "price": 450000, "category": "Lightstick" },
+        { "id": "exo-m2", "name": "EXO XOXO Hoodie (White)", "price": 380000, "category": "Apparel" },
+        { "id": "exo-m3", "name": "EXO Member Acrylic Stand Set", "price": 220000, "category": "Collectible" },
+        { "id": "exo-m4", "name": "EXO Logo Tote Bag", "price": 150000, "category": "Bag" },
+        { "id": "exo-m5", "name": "EXO Photo Book 'Universe'", "price": 320000, "category": "Photobook" }
+      ],
+      "events": [
+        { "id": "exo-e1", "type": "Concert", "title": "EXO PLANET #6 – The ElyXiOn", "date": "2024-03-15", "venue": "KSPO Dome, Seoul", "price": 850000, "status": "On Sale" },
+        { "id": "exo-e2", "type": "Fan Meet", "title": "EXO Fan Meeting – We Are One 2024", "date": "2024-05-20", "venue": "Olympic Hall, Seoul", "price": 550000, "status": "On Sale" },
+        { "id": "exo-e3", "type": "Fan Sign", "title": "XOXO Fan Sign Event – Jakarta", "date": "2024-07-10", "venue": "ICE BSD City, Jakarta", "price": 250000, "status": "Coming Soon" }
+      ]
+    },
+    {
+      "id": "nct127",
+      "name": "NCT 127",
+      "debut": "2016",
+      "members": "Taeil, Johnny, Taeyong, Yuta, Doyoung, Jaehyun, Jungwoo, Mark, Haechan",
+      "genre": "K-Pop, Neo Soul, Hip-Hop",
+      "tagline": "Neo Culture Technology",
+      "color": "#E91E63",
+      "image": "https://i.pinimg.com/736x/aa/bb/cc/aabbcc1234567890abcdef1234567890.jpg",
+      "coverBg": "#fce4ec",
+      "albums": [
+        {
+          "id": "nct127-a1",
+          "title": "Regular-Irregular",
+          "year": "2018",
+          "type": "Full Album",
+          "price": 180000,
+          "cover": "https://upload.wikimedia.org/wikipedia/en/d/d7/Regular-Irregular_NCT_127.jpg",
+          "tracks": "Regular (English Ver.)|Irregular|Come Back|My Van|Touch|Baby Don't Stop|Yestoday|0 Mile|Simon Says|Replay (PM 01:27)|Run Back 2 U|Come Back (Korean Ver.)"
+        },
+        {
+          "id": "nct127-a2",
+          "title": "Neo Zone",
+          "year": "2020",
+          "type": "Full Album",
+          "price": 190000,
+          "cover": "https://upload.wikimedia.org/wikipedia/en/1/14/NCT_127_-_Neo_Zone.png",
+          "tracks": "Kick It|Elevator (127F)|Not Alone|Make Your Move|Superhuman|Love Me Now|White Night|Sit Down!|Punch|Road Trip|From Home|Dreaming"
+        },
+        {
+          "id": "nct127-a3",
+          "title": "Sticker",
+          "year": "2021",
+          "type": "Full Album",
+          "price": 200000,
+          "cover": "https://upload.wikimedia.org/wikipedia/en/5/5b/NCT_127_-_Sticker.png",
+          "tracks": "Sticker|Favorite|Lemonade|Magic Carpet Ride|Far|Focus|Last Dance|Road Trip|Give Me That|Dreaming (Alt. Ver.)|Love On The Floor|Be There For Me"
+        }
+      ],
+      "merchandise": [
+        { "id": "nct127-m1", "name": "NCT 127 Official Light Stick Ver.2", "price": 430000, "category": "Lightstick" },
+        { "id": "nct127-m2", "name": "Neo Zone Tour Jacket (Black)", "price": 420000, "category": "Apparel" },
+        { "id": "nct127-m3", "name": "NCT 127 Sticker Photocard Set", "price": 180000, "category": "Collectible" },
+        { "id": "nct127-m4", "name": "NCT 127 Crossbody Bag", "price": 200000, "category": "Bag" }
+      ],
+      "events": [
+        { "id": "nct127-e1", "type": "Concert", "title": "NCT 127 NEO CITY – The Link", "date": "2024-04-22", "venue": "Gocheok Sky Dome, Seoul", "price": 900000, "status": "On Sale" },
+        { "id": "nct127-e2", "type": "Fan Sign", "title": "Sticker Album Fan Sign – Singapore", "date": "2024-06-14", "venue": "The Star Theatre, Singapore", "price": 300000, "status": "On Sale" },
+        { "id": "nct127-e3", "type": "Fan Meet", "title": "NCT 127 Fan Meet Tokyo", "date": "2024-09-05", "venue": "Makuhari Messe, Tokyo", "price": 620000, "status": "Coming Soon" }
+      ]
+    },
+    {
+      "id": "aespa",
+      "name": "aespa",
+      "debut": "2020",
+      "members": "Karina, Giselle, Winter, Ningning",
+      "genre": "K-Pop, Synth-pop, Futuristic",
+      "tagline": "Live My Life – ae",
+      "color": "#AD1457",
+      "image": "https://i.pinimg.com/736x/11/22/33/112233aabbccddeeff0011223344.jpg",
+      "coverBg": "#fce4ec",
+      "albums": [
+        {
+          "id": "aespa-a1",
+          "title": "Savage",
+          "year": "2021",
+          "type": "Mini Album",
+          "price": 165000,
+          "cover": "https://upload.wikimedia.org/wikipedia/en/5/5b/Aespa_Savage.png",
+          "tracks": "Savage|YEPPI YEPPI|Iconic|STEREOTYPE|I'll Make You Cry|aenergy (Inst.)"
+        },
+        {
+          "id": "aespa-a2",
+          "title": "My World",
+          "year": "2023",
+          "type": "Mini Album",
+          "price": 170000,
+          "cover": "https://upload.wikimedia.org/wikipedia/en/6/6c/Aespa_-_My_World.png",
+          "tracks": "Welcome to MY World|Spicy|Salty & Sweet|Illusion|Better Things|Don't Blast|Girls (Remix)|My World"
+        },
+        {
+          "id": "aespa-a3",
+          "title": "Armageddon",
+          "year": "2024",
+          "type": "Full Album",
+          "price": 210000,
+          "cover": "https://upload.wikimedia.org/wikipedia/en/0/0c/Aespa_Armageddon_cover.jpg",
+          "tracks": "Armageddon|Drama|Hot Mess|Supernova|Whiplash|Breathing|Magik|Up In My Head|Broken Melodies|Long Dress|Hold On Tight|Thrill"
+        }
+      ],
+      "merchandise": [
+        { "id": "aespa-m1", "name": "aespa Official Light Stick", "price": 440000, "category": "Lightstick" },
+        { "id": "aespa-m2", "name": "Savage Era Bucket Hat (Pink)", "price": 175000, "category": "Apparel" },
+        { "id": "aespa-m3", "name": "aespa ae Character Doll Set", "price": 350000, "category": "Collectible" },
+        { "id": "aespa-m4", "name": "Armageddon Tour Tee", "price": 210000, "category": "Apparel" },
+        { "id": "aespa-m5", "name": "aespa Logo Canvas Bag", "price": 140000, "category": "Bag" }
+      ],
+      "events": [
+        { "id": "aespa-e1", "type": "Concert", "title": "aespa LIVE – MY WORLD TOUR", "date": "2024-05-11", "venue": "KSPO Dome, Seoul", "price": 870000, "status": "On Sale" },
+        { "id": "aespa-e2", "type": "Fan Meet", "title": "aespa Fan Meeting – Hello, MY World", "date": "2024-08-03", "venue": "SMTOWN COEX Artium, Seoul", "price": 500000, "status": "On Sale" },
+        { "id": "aespa-e3", "type": "Fan Sign", "title": "Armageddon Fan Sign – Kuala Lumpur", "date": "2024-10-19", "venue": "Axiata Arena, KL", "price": 280000, "status": "Coming Soon" }
+      ]
+    },
+    {
+      "id": "riize",
+      "name": "RIIZE",
+      "debut": "2023",
+      "members": "Shotaro, Eunseok, Sungchan, Wonbin, Seunghan, Anton, Sohee",
+      "genre": "K-Pop, Dance Pop",
+      "tagline": "Rise & Realize",
+      "color": "#F06292",
+      "image": "https://i.pinimg.com/736x/44/55/66/445566aabbccddeeff001122334455.jpg",
+      "coverBg": "#fce4ec",
+      "albums": [
+        {
+          "id": "riize-a1",
+          "title": "Get A Guitar",
+          "year": "2023",
+          "type": "Single Album",
+          "price": 120000,
+          "cover": "https://upload.wikimedia.org/wikipedia/en/a/ab/RIIZE_Get_A_Guitar.jpg",
+          "tracks": "Get A Guitar|Memories|Talk Saxy|Worthy|Impossible|One Kiss"
+        },
+        {
+          "id": "riize-a2",
+          "title": "RIIZING",
+          "year": "2024",
+          "type": "Mini Album",
+          "price": 155000,
+          "cover": "https://upload.wikimedia.org/wikipedia/en/2/23/RIIZE_RIIZING.jpg",
+          "tracks": "RIIZING|Boom Boom Bass|Love 119|Honestly|Siren|Pretty Little Baby|With You|Midnight Talk"
+        }
+      ],
+      "merchandise": [
+        { "id": "riize-m1", "name": "RIIZE Official Light Stick", "price": 420000, "category": "Lightstick" },
+        { "id": "riize-m2", "name": "RIIZING Tour Hoodie (White)", "price": 360000, "category": "Apparel" },
+        { "id": "riize-m3", "name": "RIIZE Member Photo Frame Set", "price": 195000, "category": "Collectible" },
+        { "id": "riize-m4", "name": "RIIZE Shoulder Bag", "price": 185000, "category": "Bag" }
+      ],
+      "events": [
+        { "id": "riize-e1", "type": "Concert", "title": "RIIZE FAN-CON TOUR – RIIZING DAY", "date": "2024-06-29", "venue": "Olympic Hall, Seoul", "price": 750000, "status": "On Sale" },
+        { "id": "riize-e2", "type": "Fan Sign", "title": "RIIZING Fan Sign – Bangkok", "date": "2024-08-17", "venue": "Impact Arena, Bangkok", "price": 260000, "status": "On Sale" },
+        { "id": "riize-e3", "type": "Fan Meet", "title": "RIIZE Pop-Up Fan Meet – Tokyo", "date": "2024-11-02", "venue": "Zepp Haneda, Tokyo", "price": 580000, "status": "Coming Soon" }
+      ]
+    },
+    {
+      "id": "shinee",
+      "name": "SHINee",
+      "debut": "2008",
+      "members": "Onew, Key, Minho, Taemin",
+      "genre": "K-Pop, R&B, Dance",
+      "tagline": "The Shinee World",
+      "color": "#E91E63",
+      "image": "https://i.pinimg.com/736x/77/88/99/778899aabbccddeeff00112233.jpg",
+      "coverBg": "#fce4ec",
+      "albums": [
+        {
+          "id": "shinee-a1",
+          "title": "The Story of Light",
+          "year": "2018",
+          "type": "Full Album",
+          "price": 195000,
+          "cover": "https://upload.wikimedia.org/wikipedia/en/0/0b/SHINee_-_The_Story_of_Light_EP_1.png",
+          "tracks": "Our Page|Good Evening|I Want You|Save Me, Save You|Lock You Down|Who Waits for Love|All Day|Countless|Five"
+        },
+        {
+          "id": "shinee-a2",
+          "title": "Don't Call Me",
+          "year": "2021",
+          "type": "Full Album",
+          "price": 200000,
+          "cover": "https://upload.wikimedia.org/wikipedia/en/5/55/SHINee_-_Don%27t_Call_Me.png",
+          "tracks": "Don't Call Me|Area|Atlantis|Body Rhythm|Marry You|Attention|Countless|LINGO|Heart Attack|I Really Want You|Kind|Marry You (Inst.)"
+        }
+      ],
+      "merchandise": [
+        { "id": "shinee-m1", "name": "SHINee Official Light Stick Ver.3", "price": 430000, "category": "Lightstick" },
+        { "id": "shinee-m2", "name": "Atlantis Tour Tee", "price": 190000, "category": "Apparel" },
+        { "id": "shinee-m3", "name": "SHINee World Photocard Binder", "price": 250000, "category": "Collectible" }
+      ],
+      "events": [
+        { "id": "shinee-e1", "type": "Concert", "title": "SHINee WORLD VI – PERFECT ILLUMINATION", "date": "2024-07-20", "venue": "KSPO Dome, Seoul", "price": 820000, "status": "On Sale" },
+        { "id": "shinee-e2", "type": "Fan Meet", "title": "The SHINee World Fan Meeting 2024", "date": "2024-09-14", "venue": "Blue Square iMarket Hall, Seoul", "price": 490000, "status": "Coming Soon" }
+      ]
+    },
+    {
+      "id": "redvelvet",
+      "name": "Red Velvet",
+      "debut": "2014",
+      "members": "Irene, Seulgi, Wendy, Joy, Yeri",
+      "genre": "K-Pop, Dance-pop, R&B",
+      "tagline": "The ReVe Festival",
+      "color": "#C62828",
+      "image": "https://i.pinimg.com/736x/aa/bb/dd/aabbddaabbccddeeff001122334455.jpg",
+      "coverBg": "#fce4ec",
+      "albums": [
+        {
+          "id": "redvelvet-a1",
+          "title": "The ReVe Festival 2022",
+          "year": "2022",
+          "type": "Full Album",
+          "price": 185000,
+          "cover": "https://upload.wikimedia.org/wikipedia/en/f/fd/Red_Velvet_-_The_ReVe_Festival_2022_-_Birthday.png",
+          "tracks": "Birthday|P.I.C.K.I.N.G|Underwater|All I Want for Christmas|Better Be|Wildside|Teddy Bear|In My Dreams|Yellow Ribbon|Red Scented Letter|Beautiful Vampire|Zoom"
+        },
+        {
+          "id": "redvelvet-a2",
+          "title": "Chill Kill",
+          "year": "2023",
+          "type": "Full Album",
+          "price": 195000,
+          "cover": "https://upload.wikimedia.org/wikipedia/en/3/3a/Red_Velvet_-_Chill_Kill.png",
+          "tracks": "Chill Kill|Nightmare|Broken Clocks|Last Christmas|What A Boy Wants|Underwater|Nightmare (Inst.)|Chill Kill (Inst.)"
+        }
+      ],
+      "merchandise": [
+        { "id": "redvelvet-m1", "name": "Red Velvet Official Light Stick Ver.2", "price": 420000, "category": "Lightstick" },
+        { "id": "redvelvet-m2", "name": "Chill Kill Zip-Up Hoodie", "price": 370000, "category": "Apparel" },
+        { "id": "redvelvet-m3", "name": "Red Velvet Member Postcard Set", "price": 160000, "category": "Collectible" },
+        { "id": "redvelvet-m4", "name": "ReVe Festival Canvas Tote", "price": 145000, "category": "Bag" }
+      ],
+      "events": [
+        { "id": "redvelvet-e1", "type": "Concert", "title": "Red Velvet Concert – WILDSIDE", "date": "2024-08-10", "venue": "KSPO Dome, Seoul", "price": 830000, "status": "On Sale" },
+        { "id": "redvelvet-e2", "type": "Fan Sign", "title": "Chill Kill Fan Sign – Manila", "date": "2024-10-05", "venue": "Mall of Asia Arena, Manila", "price": 270000, "status": "Coming Soon" }
+      ]
+    }
+  ]
+}
